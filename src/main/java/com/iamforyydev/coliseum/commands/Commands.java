@@ -23,14 +23,14 @@ public class Commands implements CommandExecutor {
         Player player = (Player) sender;
 
         if(args.length == 1){
-            player.sendMessage(toLegacyColor("&fArgumento incorrecto, usa &e'/coliseum help'"));
+            player.sendMessage(toLegacyColor("&fWrong argument, usage &e'/coliseum help'"));
             return true;
         }
 
         Game game = plugin.getGame();
         switch (args[0].toLowerCase()){
             default:
-                player.sendMessage(toLegacyColor("&fArgumento incorrecto, usa &e'/coliseum help'"));
+                player.sendMessage(toLegacyColor("&fWrong argument, usage &e'/coliseum help'"));
                 return true;
             case "start":
                 plugin.getGameManager().startGame(game);
