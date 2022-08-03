@@ -1,0 +1,9 @@
+name: Coliseum
+version: '${version}'
+main: com.iamforyydev.coliseum.Coliseum
+authors: [ iAmForyyDev_ ]
+description: Plugin made for Arkadiax
+
+commands:
+  coliseum:
+    description: main command.
